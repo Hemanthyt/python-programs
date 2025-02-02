@@ -13,7 +13,6 @@ class Solution(object):
         return l==len(s) and r==len(p)
             
 
-
 s = Solution()
 # print(s.hasMatch( "car", p = "c*v"))
 print(s.hasMatch( s = "leetcode", p = "ee*e"))
