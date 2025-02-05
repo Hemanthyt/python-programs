@@ -6,7 +6,9 @@ class Solution:
         n=len(nums)
         k%=n
         nums.reverse()
+        print(nums)
         nums[:k]=reversed(nums[:k])
+        print(nums)
         nums[k:]=reversed(nums[k:])
         return nums            
         
