@@ -7,7 +7,7 @@ class Solution:
             # Odd Length
             l,r=i,i
             while l>=0 and r<len(s) and s[l] == s[r]:
-                if (r-l+1)>resLen:
+                if (r-l+1)>resLen: 
                     resLen=r-l+1
                     resIdx=l
                 l-=1
