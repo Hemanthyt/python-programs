@@ -11,7 +11,6 @@ class Solution:
                     res+=1
         return res
 
-
 s = Solution()
 print(s.inversionCount( arr = [2, 4, 1, 3, 5]))
 print(s.inversionCount( arr = [57 ,38, 91, 10 ,38, 28, 79, 41]))
