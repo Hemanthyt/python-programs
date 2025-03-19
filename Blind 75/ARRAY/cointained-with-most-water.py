@@ -13,8 +13,6 @@ class Solution:
             else:
                 l+=1
         return res
-            
-                    
         
 s = Solution()
 print(s.maxArea(heights = [1,8,6,2,5,4,8,3,7] ))
