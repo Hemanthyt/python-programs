@@ -17,7 +17,6 @@ class Solution:
         #         stack.pop()
         # backtrack(0,0)
         # return res
-        
         def dfs(left,right,s):
             if len(s)==n*2:
                 res.append(s)
