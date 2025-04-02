@@ -7,7 +7,6 @@ class Solution:
         for p, s in pair:  # Reverse Sorted Order
             stack.append((target - p) / s)
             print(stack)
-            
             if len(stack) >= 2 and stack[-1] <= stack[-2]:
                 stack.pop()
                 print(stack)
