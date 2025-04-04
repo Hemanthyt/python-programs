@@ -7,6 +7,8 @@ class Solution:
             else:
                 d[target - numbers[i]]=i
         return False
+    
+
             
 s = Solution()
 # print(s.twoSum( numbers = [1,2,3,4], target = 3))
