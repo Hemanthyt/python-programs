@@ -1,2 +1,2 @@
-
-        # nums[k:]=reversed(nums[k:])
+i]!="b":
+    #     print(False)
