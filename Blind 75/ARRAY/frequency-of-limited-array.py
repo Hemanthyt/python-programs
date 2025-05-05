@@ -13,6 +13,5 @@ class Solution:
                 res.append(x[i])
         return res
                 
-        
 s = Solution()
 print(s.frequencyCount(arr = [2, 3, 2, 3, 5]))
