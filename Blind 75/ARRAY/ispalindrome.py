@@ -12,7 +12,6 @@ class Solution:
                 l+=1
                 r-=1
         return True
-        
-        
+          
 s = Solution()
 print(s.isPalindrome(s = "A man, a plan, a canal: Panama" ))
