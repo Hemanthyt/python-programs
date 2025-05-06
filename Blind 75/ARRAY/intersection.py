@@ -7,5 +7,6 @@ class Solution:
         c=a.intersection(b)
         return len(c)
 
+
 s = Solution()
 print(s.findIntersection(a = [1, 2, 3, 4, 5], b = [1, 2, 3] ))
