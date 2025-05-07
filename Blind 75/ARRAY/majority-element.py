@@ -1,3 +1,4 @@
+from collections import Counter
 class Solution(object):
     def majorityElement(self, nums):
         count = Counter(nums)
@@ -5,4 +6,3 @@ class Solution(object):
             if val > len(nums)/2:
                 return val
         
-            
