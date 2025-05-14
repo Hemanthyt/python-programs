@@ -8,6 +8,5 @@ class Solution:
                 return i
         return -1
     
-    
 s = Solution()
 print(s.search(arr=[3, 2, 1, 56, 10000, 167],x=56))
