@@ -6,6 +6,7 @@ class Solution:
                 res.append(i)
         res.append(n)
         return res
+        
                 
 s = Solution()
 print(s.divisors(n=12))
