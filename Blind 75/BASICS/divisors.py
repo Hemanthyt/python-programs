@@ -8,6 +8,5 @@ class Solution:
         return res
     
                 
-                
 s = Solution()
 print(s.divisors(n=12))
