@@ -7,6 +7,7 @@ class Solution:
         return n==amstrong
 
 
+
 s = Solution()
 print(s.armstrongNumber(n=153))
 print(s.armstrongNumber(n=328))
