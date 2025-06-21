@@ -7,6 +7,7 @@ class Solution:
     
     
     
+    
 s = Solution()
 print(s.maxAdjacentDistance(nums=[1,2,4]))
 print(s.maxAdjacentDistance(nums=[-2,1,-5]))
